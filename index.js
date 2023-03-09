@@ -19,11 +19,11 @@ const fibonacci = [0, 1]; // Inicia a sequência de Fibonacci
 while (fibonacci[fibonacci.length - 1] < numero) {
   const proximo = fibonacci[fibonacci.length - 1] + fibonacci[fibonacci.length - 2];
   fibonacci.push(proximo);
-} //Na linha 16, é criado um array fibonacci que inicia com os dois primeiros números da sequência de Fibonacci, que são 0 e 1.
+} //Na linha 18, é criado um array fibonacci que inicia com os dois primeiros números da sequência de Fibonacci, que são 0 e 1.
 
-// Na linha 17, é criado um loop while que vai calcular a sequência de Fibonacci até que o último número do array fibonacci seja maior ou igual ao número digitado pelo usuário (armazenado na variável numero).
-// Na linha 18, é criada uma variável "proximo" que calcula o próximo número da sequência de Fibonacci a partir dos dois últimos números do array fibonacci. Essa soma é feita com a fórmula fibonacci[fibonacci.length - 1] + fibonacci[fibonacci.length - 2]. Por exemplo, se fibonacci estiver armazenando [0, 1, 1], proximo será igual a 2.
-// Na linha 19, o número calculado em proximo é adicionado ao final do array fibonacci utilizando o método push. Assim, o array fibonacci vai aumentando de tamanho a cada iteração do loop.
+// Na linha 19, é criado um loop while que vai calcular a sequência de Fibonacci até que o último número do array fibonacci seja maior ou igual ao número digitado pelo usuário (armazenado na variável numero).
+// Na linha 20, é criada uma variável "proximo" que calcula o próximo número da sequência de Fibonacci a partir dos dois últimos números do array fibonacci. Essa soma é feita com a fórmula fibonacci[fibonacci.length - 1] + fibonacci[fibonacci.length - 2]. Por exemplo, se fibonacci estiver armazenando [0, 1, 1], proximo será igual a 2.
+// Na linha 21, o número calculado em proximo é adicionado ao final do array fibonacci utilizando o método push. Assim, o array fibonacci vai aumentando de tamanho a cada iteração do loop.
 // O loop while continua executando até que o último número do array fibonacci seja maior ou igual ao número digitado pelo usuário (armazenado na variável numero). Isso é feito verificando a condição fibonacci[fibonacci.length - 1] < numero. A cada iteração, o loop calcula um novo número da sequência de Fibonacci e adiciona ao final do array fibonacci.
 
 
